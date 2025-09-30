@@ -5,7 +5,7 @@ import json
 #--------------------------------------------
 # CONFIGURATION - GitHub connection
 #-------------------------------------------
-GITHUB_TOKEN = "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"
+GITHUB_TOKEN = "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"
 REPO_NAME = "PNRELAB/RE_LAB_PROCEDURE" #replace with your GitHub repo
 PROCEDURES_FOLDER = "TestProcedures"  #folder inside repo to store procedures
 
@@ -204,4 +204,5 @@ if selected_test:
 
 #--------Auto-refresh every 5s---------------------
 from streamlit_autorefresh import st_autorefresh
+
 st_autorefresh(interval=5000, key="refresh")
